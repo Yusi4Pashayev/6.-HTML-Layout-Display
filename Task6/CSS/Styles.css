@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 20%;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 13%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.section1 {
+    background-image: url(/Images/image.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 30% 0;
+}
+
+.info h1 {
+    font-size: 50px;
+    color: azure;
+    font-weight: 900;
+    padding-right: 45%;
+    padding-bottom: 1rem;
+}
+
+.info p {
+    font-size: 20px;
+    color: azure;
+    font-weight: 100;
+    padding-right: 45%;
+}
+
+
+.scroll {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.scroll i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.scroll span {
+    font-size: 20px;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.section2 {
+    height: 60vh;
+}
+
+.section2 .top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3rem 0 1rem;
+}
+
+.section2 .top h3 {
+    font-size: 35px;
+}
+
+.section2 .top a {
+    font-size: 1rem;
+    border: 4px solid rgb(175, 175, 175);
+    width: 12rem;
+    height: 4rem;
+    padding: 1rem 1rem 0 1rem;
+    border-radius: 10px;
+    color: #222;
+    font-weight: 900;
+    transition: .5s;
+    position: relative;
+}
+
+.section2 .top a:hover {
+    border: 4px solid rgb(201, 114, 0);
+}
+
+.section2 .top a .fa-solid {
+    padding-left: 20px;
+    transition: .6s;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 7%;
+}
+
+.section2 .top a:hover .fa-solid {
+    color: rgb(201, 114, 0);
+    right: 4%;
+}
+
+.section2 .all {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.section2 .all .box {
+    width: 32%;
+    text-align: center;
+    padding: 5% 2%;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 1%;
+    transition: .5s;
+}
+
+.section2 .all .box:hover {
+    transform: scale(1.04);
+}
+
+.section2 .all .box h2 {
+    font-size: 25px;
+    padding: 1.5rem 0;
+}
